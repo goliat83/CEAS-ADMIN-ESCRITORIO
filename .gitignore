@@ -1,0 +1,69 @@
+# Archivos de compilación de Visual Studio
+*.exe
+*.pdb
+*.dll
+*.manifest
+*.obj
+*.res
+*.pch
+*.pch
+*.sbr
+*.tlb
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.
+
+# Ignorar carpetas generadas por Visual Studio
+.vs/
+CEASadmin/obj/
+CEASadmin/bin/
+
+# Ignorar archivos específicos
+*.suo
+*.cache
+*.exe.manifest
+
+# Ignorar ensamblados temporales
+*.
+
+# Carpeta de salida de compilación
+bin/
+obj/
+ceasadmin/CEASadmin/publicar
+
+# Carpeta de caché de Visual Studio
+.vs/
+.vs/CEASadmin/v16/.suo
+.vs/CEASadmin/v16
+CEASadmin/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+
+# Carpeta de salida de NuGet
+packages/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Carpetas de respaldo
+Backup*/
+Backup*/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de proyecto específicos de Visual Studio
+*.csproj.user
+*.vcxproj.user
+*.vcproj.user
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/

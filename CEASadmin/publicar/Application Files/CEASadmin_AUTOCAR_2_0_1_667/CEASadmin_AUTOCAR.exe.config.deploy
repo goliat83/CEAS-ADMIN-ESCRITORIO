@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<configuration>
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1"/>
+	</startup>
+	<connectionStrings>
+		<!-- Cadena de conexión para el entorno local (Desarrollo) -->
+		<add name="ConexLocal"
+			 connectionString="server=localhost;user id=root;password=Radiobemba;database=ceas_continental;port=3306;SslMode=None;"
+			 providerName="MySql.Data.MySqlClient" />
+
+		<!-- Cadena de conexión para Miclickderecho admin y gestión -->
+		<add name="ConexMiclick"
+			 connectionString="server=75.102.22.98;user id=bhhurjmu_root;password=Radiob3mba@_;database=bhhurjmu_mydata;port=3306;SslMode=None;"
+			 providerName="MySql.Data.MySqlClient" />
+
+		<!-- Cadena de conexión para Continental antigua (Obsoleta) -->
+		<add name="ConexConti"
+			 connectionString="server=75.102.22.98;user id=bhhurjmu_contiroot;password=_rWas663;database=bhhurjmu_contibd;port=3306;SslMode=None;"
+			 providerName="MySql.Data.MySqlClient" />
+
+		<!-- Cadena de conexión para Continental SAS (Producción) -->
+		<add name="ConexContisas"
+			 connectionString="server=75.102.22.98;user id=bhhurjmu_contiroot;password=_rWas663;database=bhhurjmu_contibd_sas;port=3306;SslMode=None;"
+			 providerName="MySql.Data.MySqlClient" />
+
+		<!-- Cadena de conexión para Continental SAS (Desarrollo) -->
+		<add name="ConexContiDev"
+			 connectionString="server=75.102.22.98;user id=bhhurjmu_contiroot;password=_rWas663;database=bhhurjmu_contibd_dev;port=3306;SslMode=None;"
+			 providerName="MySql.Data.MySqlClient" />
+	</connectionStrings>
+
+</configuration>
